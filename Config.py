@@ -17,7 +17,7 @@ config_path = os.path.join(working_dir, 'config.json')
 sn_list_path = os.path.join(working_dir, 'sn_list.txt')
 cookie_path = os.path.join(working_dir, 'cookie.txt')
 logs_dir = os.path.join(working_dir, 'logs')
-aniGamerPlus_version = 'v22.1'
+aniGamerPlus_version = 'v22.2'
 latest_config_version = 15.3
 latest_database_version = 2.0
 cookie = None
@@ -80,6 +80,7 @@ def __init_settings():
                 'check_frequency': 5,  # 检查 cd 时间, 单位分钟
                 'download_resolution': '1080',  # 下载分辨率
                 'lock_resolution': False,  # 锁定分辨率, 如果分辨率不存在, 则宣布下载失败
+                'only_use_vip': False,  # 锁定 VIP 账号下载
                 'default_download_mode': 'latest',  # 仅下载最新一集，另一个模式是 'all' 下载所有及日后更新
                 'use_copyfile_method': False,  # 转移视频至番剧目录时是否使用复制法, 使用 True 以兼容 rclone 挂载盘
                 'multi-thread': 1,  # 最大并发下载数
