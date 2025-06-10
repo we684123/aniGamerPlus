@@ -1,6 +1,6 @@
 termcolor==1.1.0
 Flask==2.3.2
-requests==2.32.0
+requests==2.32.4
 chardet==3.0.4
 gevent==23.9.1
 Flask_BasicAuth==0.2.0
