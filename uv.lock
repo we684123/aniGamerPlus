@@ -25,20 +25,20 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "beautifulsoup4" },
-    { name = "chardet" },
-    { name = "flask" },
-    { name = "flask-basicauth" },
-    { name = "flask-sockets" },
-    { name = "gevent" },
-    { name = "gevent-websocket" },
-    { name = "greenlet" },
-    { name = "lxml" },
-    { name = "markupsafe" },
-    { name = "pyhttpx" },
-    { name = "pysocks" },
-    { name = "requests" },
-    { name = "termcolor" },
+    { name = "beautifulsoup4", specifier = ">=4.13.4" },
+    { name = "chardet", specifier = ">=5.2.0" },
+    { name = "flask", specifier = ">=3.1.1" },
+    { name = "flask-basicauth", specifier = ">=0.2.0" },
+    { name = "flask-sockets", specifier = ">=0.2.1" },
+    { name = "gevent", specifier = ">=25.5.1" },
+    { name = "gevent-websocket", specifier = ">=0.10.1" },
+    { name = "greenlet", specifier = ">=3.2.4" },
+    { name = "lxml", specifier = ">=6.0.0" },
+    { name = "markupsafe", specifier = ">=3.0.2" },
+    { name = "pyhttpx", specifier = ">=2.10.9" },
+    { name = "pysocks", specifier = ">=1.7.1" },
+    { name = "requests", specifier = ">=2.32.4" },
+    { name = "termcolor", specifier = ">=3.1.0" },
 ]
 
 [[package]]
